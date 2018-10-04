@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #000;
+	background-image:url("../images/background.png");
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+}
+
+.corpo {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.cont {
+	padding: 30px 30px;
+}
+
+.navbar {
+	padding: .5rem 2rem;
+}
+
+.titulo {
+	text-transform: uppercase;
+}
+
+.formulario-edicao {
+	box-shadow: 0px 0px 20px;
+	margin-top: 36px;
+}
+
+.tit-edit {
+	margin-bottom: 0px;
+}
+
+.desc-edit {
+	font-size: 12px;
+}
+
+.tit-dados {
+	font-size: 16px;
+	font-weight: 700;
+	color: #00c788;
+}
+
+.mobile-on {
+		display: none;
+	}
+
+
+@media only screen and (max-width: 1250px) { 
+	.corpo{
+		width: 90%;
+	}
+ }
+
+@media only screen and (max-width: 1000px) { 
+	.corpo{
+		
+	}
+ }
+
+@media only screen and (max-width: 768px) { 
+	.col-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-4 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.mobile-off {
+		display: none;
+	}
+
+	.mobile-on {
+		display: block;
+	}
+}
+
+@media (max-width: 576px) { 
+	.corpo{
+		width: 100%;
+	}
+ }
+
+
+
